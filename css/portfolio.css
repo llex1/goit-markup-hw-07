@@ -7,7 +7,6 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  outline: 1px solid #1e90ff;
 }
 
 a {
@@ -61,12 +60,12 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  transition: all 1850ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer .social-list-link {
   background-color: rgba(255, 255, 255, 0.1);
-  transition: all 1850ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list-link:hover, .social-list-link:focus {
@@ -82,7 +81,7 @@ body {
   width: 20px;
   height: 20px;
   fill: #AFB1B8;
-  transition: all 1850ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer .social-list-link__icon {
@@ -195,7 +194,7 @@ body {
 
 .header-nav-list-item > a {
   color: #212121;
-  transition: all 1850ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-list-item > a:hover,
@@ -232,7 +231,7 @@ body {
   letter-spacing: 0.02em;
   font-style: normal;
   color: #757575;
-  transition: all 1850ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-address-list-item > a:hover, .header-address-list-item > a:focus {
@@ -253,7 +252,7 @@ body {
   max-height: 16px;
   max-width: 16px;
   margin-right: 10px;
-  transition: all 1850ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-btn-list {
@@ -278,7 +277,7 @@ body {
   line-height: 1.62;
   letter-spacing: 0.03;
   text-align: center;
-  transition: all 1850ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-btn:hover, .portfolio-btn:focus {
@@ -295,7 +294,7 @@ body {
 
 .portfolio-cards-list-item {
   background-color: #F5F4FA;
-  transition: all 1850ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-cards-list-wrapper {
@@ -319,7 +318,7 @@ body {
   color: #FFFFFF;
   background: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
-  transition: all 1850ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-cards-list-item:hover, .portfolio-cards-list-item:focus {
@@ -440,7 +439,7 @@ body {
   line-height: 1.25;
   letter-spacing: 0.03;
   color: #FFFFFF;
-  transition: all 1850ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-form-subscription-input:focus {
