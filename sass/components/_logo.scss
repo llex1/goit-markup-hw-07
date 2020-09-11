@@ -1,0 +1,13 @@
+.logo{
+  margin-right: 92px;
+  font-family: $logo-font;
+  @include font(700, 26px, 1.19);
+  color: $main-color;
+
+  &.logo-header>span {color: $black-color};
+  &.logo-footer>span {color: $white-color};
+  &.logo-footer {
+    display: block;
+    margin-bottom: 20px;
+  }
+}

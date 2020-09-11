@@ -1,0 +1,29 @@
+.clients-title{
+  @include font(700, 36px, 1.16);
+  text-align: center;
+  margin: 0px 0px 50px;
+}
+.clients-list {
+  @include flex(space-between);
+}
+.clients-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid $social-icon-color;
+  border-radius: 4px;
+  transition: $transition-main;
+
+  &:hover,
+  &:focus {border-color: $main-color}
+  &:hover &__icon,
+  &:focus &__icon {fill: $main-color}
+  &__icon {
+  fill: $social-icon-color;
+  transition: $transition-main;
+  }
+
+}
+

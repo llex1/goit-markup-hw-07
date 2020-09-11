@@ -1,0 +1,60 @@
+.advantages-list{
+  @include flex(space-between);
+}
+.advantages-title {
+  @include font(700, 14px, 1.14);
+  text-transform: uppercase;
+}
+.advantages-list-item {
+  width: 270px;
+
+  &:nth-child(1)::before {
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-image: url(../images/antenna.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $wrapper-color;
+  }
+  &:nth-child(2)::before {
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-image: url(../images/clock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $wrapper-color;
+  }
+  &:nth-child(3)::before {
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-image: url(../images/diagram.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $wrapper-color;
+  }
+  &:nth-child(4)::before {
+    content: "";
+    display: block;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-image: url(../images/astronaut.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $wrapper-color;
+  }
+
+}
+.advantages-describ {
+  color: $grey-color;
+  @include font(400, 14px, 1.71);
+}
